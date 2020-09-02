@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { from } from 'rxjs';
 import { ListButtonComponent } from './list-button/list-button.component';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListButtonComponent
+    ListButtonComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,
